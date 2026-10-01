@@ -1,0 +1,62 @@
+{
+  "DIGITAL_IC": {
+    "winning_model": "Ridge",
+    "val_mae": 3.433152393454386,
+    "val_r2": 0.9957716094021879,
+    "ood_generalization_gap": 0.4212738436680623,
+    "blind_test_mae": 2.923519082212085,
+    "blind_test_rmse": 14.561537368389137,
+    "blind_test_mape_pct": 0.29860924621117374,
+    "blind_test_r2": 0.9961072248630617,
+    "blind_test_escaped_defect_rate_pct": 2.710843373493976,
+    "model_sha256": "4e1cfe0cf2b23ff0cc9d255690f176df1a96a577365704070db3d9b89dc0c97a"
+  },
+  "MIXED_SIGNAL_IC": {
+    "winning_model": "Ridge",
+    "val_mae": 3.366355767931402,
+    "val_r2": 0.9988645925646595,
+    "ood_generalization_gap": 0.3092139915618719,
+    "blind_test_mae": 3.1538174355880044,
+    "blind_test_rmse": 15.420775971554814,
+    "blind_test_mape_pct": 0.19435146836811998,
+    "blind_test_r2": 0.9987104800926445,
+    "blind_test_escaped_defect_rate_pct": 0.050658561296859174,
+    "model_sha256": "5e903011218938641911dfa79886051a3df2971d32dfea4b2384c813e7feece8"
+  },
+  "MEMS_GYROSCOPE": {
+    "winning_model": "Ridge",
+    "val_mae": 0.014539639983888531,
+    "val_r2": 0.06403984774398996,
+    "ood_generalization_gap": 0.00021661216980784978,
+    "blind_test_mae": 0.01424188476842132,
+    "blind_test_rmse": 0.04322781926320994,
+    "blind_test_mape_pct": 8.138394678465124,
+    "blind_test_r2": 0.09759994413563144,
+    "blind_test_escaped_defect_rate_pct": 0.0,
+    "model_sha256": "93902bfe83cb6fa6f5f6c30e3e885edebc44d08469f69d26bd9313f1b017fb2f"
+  },
+  "IMAGE_SENSOR": {
+    "winning_model": "RandomForest",
+    "val_mae": 3.2006475964744405,
+    "val_r2": 0.10525890167173402,
+    "ood_generalization_gap": 0.694132378713618,
+    "blind_test_mae": 3.058427101141964,
+    "blind_test_rmse": 9.87299438638151,
+    "blind_test_mape_pct": 12.077237773727626,
+    "blind_test_r2": 0.10310215638269515,
+    "blind_test_escaped_defect_rate_pct": 70.58823529411765,
+    "model_sha256": "94162a2345a912454639635754a4eaa691e34c26fbbcc97a808762a4b96490e0"
+  },
+  "PRECISION_VOLTAGE_REF": {
+    "winning_model": "Ridge",
+    "val_mae": 5.932014530243207,
+    "val_r2": 0.9998939062073494,
+    "ood_generalization_gap": 0.0644686629875526,
+    "blind_test_mae": 5.6909122367416405,
+    "blind_test_rmse": 18.856874846472564,
+    "blind_test_mape_pct": 0.0931283135549142,
+    "blind_test_r2": 0.9998867183625119,
+    "blind_test_escaped_defect_rate_pct": 0.0,
+    "model_sha256": "fd13d36cfee23b3e6b95aabb38cf8ba60cc3d96275576805c041de1988d7e897"
+  }
+}

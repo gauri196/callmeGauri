@@ -1,0 +1,39 @@
+{
+  "session_id": "AG-SDK-CF7ABEAD",
+  "audit_id": "AUDIT-6A39DAFB9DAE",
+  "timestamp": "2026-09-02T19:19:05.968678",
+  "operator_id": "TEST_SYSTEM_OP",
+  "system_version": "2.4.0",
+  "sdk_version": "2.4.0",
+  "model_version": "2.4.0-ridge-rf-tournament-v1",
+  "feature_engine_version": "2.4.0",
+  "threshold_config_version": "policy-2.4-optimal",
+  "decision_policy_version": "3-tier-aerospace-screening-v2.4",
+  "read_only_guarantee": true,
+  "context": {
+    "status": "PARTIAL_CONTEXT",
+    "resolved_device": "DIGITAL_IC",
+    "resolved_test": "THERMAL_BURN_IN",
+    "resolved_param": "IDDQ",
+    "confidence": 0.963
+  },
+  "data_quality_score": 1.0,
+  "instrument_health": "INSTRUMENT_HEALTHY",
+  "decision": "GREEN_NORMAL_CANDIDATE",
+  "recommendation": "GREEN_NORMAL_CANDIDATE",
+  "evidence_trail": [
+    "[CONTEXT] Resolved Device: DIGITAL_IC via ResolutionStatus.PARTIAL_CONTEXT (Conf: 0.96)",
+    "[ROUTER] Active Anomaly Model: RobustZScorePopulationDetector",
+    "[ROUTER] Active Forecaster: PhysicsArrheniusTemporalForecaster",
+    "[METRICS] Evaluated 1 components | Green: 1, Yellow: 0, Red: 0",
+    "[BENCHMARK] Chamber Hours Saved: 85.71%"
+  ],
+  "reasons": [
+    "100% of evaluated components meet population stability and 168h forecast thresholds."
+  ],
+  "components_summary": {
+    "GREEN": 1,
+    "YELLOW": 0,
+    "RED": 0
+  }
+}
